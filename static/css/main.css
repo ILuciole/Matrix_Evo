@@ -161,6 +161,7 @@ iframe {
     height: 100%;
     overflow: hidden;
     background-size: cover;
+    background-image: url("../images/bg.jpg");
 }
 
 /*.media::before {*/
