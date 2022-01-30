@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+
+
+
+<div class="wrap-login100 p-t-30 p-b-50">
+    <span class="login100-form-title p-b-41">
+        Наші обранні
+    </span>
+    <div>
+        {% for d in data %}
+            <div>
+                <ul>
+                    <li> {{ d.user_email }} </li>
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="container-login100-form-btn m-t-32">
+        <a href="{% url "home" %}" >
+            <button type="button" class="login100-form-btn">
+                На головну
+            </button>
+        </a>
+    </div>
+</div>
+
+
+{% endblock %}
