@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'Matrix.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dakdqavq9v4443',
+        'NAME': 'szuwupfovqjxzu',
         'USER': 'yuxlndspmcaikb',
-        'PASSWORD': '163608d0af0fdc315389620286fe8a720360f01d36fd72554a2c7e7bedf1e87f',
-        'HOST': 'ec2-176-34-105-15.eu-west-1.compute.amazonaws.com',
+        'PASSWORD': '082b92ab7f80e257a17e129bfe16bdc21a44a6a3c10daf2d547e02b14d0d93a4',
+        'HOST': 'ec2-63-34-153-52.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
